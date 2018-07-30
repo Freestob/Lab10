@@ -9,14 +9,37 @@ namespace Lab10Circle
 {
     class Program
     {
+
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Lets figure out a circle \nPlease enter in a radius");
-            double radius = double.Parse(Console.ReadLine());
-            var circle = new Circle(radius);
-            
-            Console.WriteLine($"{Circle.formatedCircumference()}");
-            Console.WriteLine($"{Circle.formatedArea()}");
+            bool doAgain = true;
+
+            do
+            {
+                for (int i = 0; i < 0; i++)
+                {
+                    Console.WriteLine("Lets figure out a circle \nPlease enter in a radius");
+                    double radius = double.Parse(Console.ReadLine());
+                    var circle = new Circle(radius);
+
+                    Console.WriteLine($"{Circle.formatedCircumference()}");
+                    Console.WriteLine($"{Circle.formatedArea()}");
+
+                    Console.WriteLine("Would you like to calculate another circle?");
+                    string yesNo = Console.ReadLine();
+                    if (yesNo == "y")
+                    {
+                        doAgain = true;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"You created {i} circle(s)");
+                    }
+                }
+            }
+            while (doAgain == true);
+            Console.ReadKey();
         }
     }
 }
