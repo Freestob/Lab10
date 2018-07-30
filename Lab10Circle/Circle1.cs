@@ -20,17 +20,17 @@ namespace Lab10Circle
         }
         public string  CalculateFormattedCircumference()
         {
-            double formatedCircumference = double.Parse($"{CalculateCircumference()}");
-            return RoundedNumber(formatedCircumference);
+            string formatedCircumference = RoundedNumber(CalculateCircumference());
+            return formatedCircumference;
         }
         public double CalculatedArea()
             {
             return  Math.PI * Radius * Radius;
             
             }
-        public double CalculateFormatedArea()
+        public string CalculateFormatedArea()
         {
-            double formatedArea = double.Parse($"{CalculateFormatedArea()}");
+            string formatedArea = RoundedNumber(CalculatedArea());
             return formatedArea;
         }
         public string RoundedNumber (double x)

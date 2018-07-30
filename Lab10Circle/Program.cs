@@ -23,8 +23,8 @@ namespace Lab10Circle
                     double radius = double.Parse(Console.ReadLine());
                     var circle = new Circle(radius);
 
-                    Console.WriteLine($"{Circle.CalculateFormattedCircumference()}");
-                    Console.WriteLine($"{Circle.CalculateFormatedArea()}");
+                    Console.WriteLine($"{circle.CalculateFormattedCircumference()}");
+                    Console.WriteLine($"{circle.CalculateFormatedArea()}");
 
                     Console.WriteLine("Would you like to calculate another circle?");
                     string yesNo = Console.ReadLine();
