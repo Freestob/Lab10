@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab10Circle.Properties
+namespace Lab10Circle
 {
     class Circle
     {
@@ -15,8 +15,8 @@ namespace Lab10Circle.Properties
         }
         public double CalculateCircumference()
         {
-            double x = 2 * Math.PI * Radius;
-            return x;
+            return 2 * Math.PI * Radius;
+            
         }
         public string  CalculateFormattedCircumference()
         {
@@ -25,8 +25,8 @@ namespace Lab10Circle.Properties
         }
         public double CalculatedArea()
             {
-            double x = Math.PI * Radius * Radius;
-            return x;
+            return  Math.PI * Radius * Radius;
+            
             }
         public double CalculateFormatedArea()
         {
