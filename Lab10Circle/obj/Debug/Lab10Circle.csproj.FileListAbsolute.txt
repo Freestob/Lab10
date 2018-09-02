@@ -1,0 +1,7 @@
+C:\Users\frees\source\repos\Lab10\Lab10Circle\bin\Debug\Lab10Circle.exe.config
+C:\Users\frees\source\repos\Lab10\Lab10Circle\bin\Debug\Lab10Circle.exe
+C:\Users\frees\source\repos\Lab10\Lab10Circle\bin\Debug\Lab10Circle.pdb
+C:\Users\frees\source\repos\Lab10\Lab10Circle\obj\Debug\Lab10Circle.csprojAssemblyReference.cache
+C:\Users\frees\source\repos\Lab10\Lab10Circle\obj\Debug\Lab10Circle.csproj.CoreCompileInputs.cache
+C:\Users\frees\source\repos\Lab10\Lab10Circle\obj\Debug\Lab10Circle.exe
+C:\Users\frees\source\repos\Lab10\Lab10Circle\obj\Debug\Lab10Circle.pdb

@@ -14,11 +14,10 @@ namespace Lab10Circle
         static void Main(string[] args)
         {
             bool doAgain = true;
-
+            int count = 1;
             do
             {
-                for (int i = 0; i < 0; i++)
-                {
+                
                     Console.WriteLine("Lets figure out a circle \nPlease enter in a radius");
                     double radius = double.Parse(Console.ReadLine());
                     var circle = new Circle(radius);
@@ -30,13 +29,16 @@ namespace Lab10Circle
                     string yesNo = Console.ReadLine();
                     if (yesNo == "y")
                     {
+                    count++;
                         doAgain = true;
                     }
                     else
                     {
-                        Console.WriteLine($"You created {i} circle(s)");
+                        Console.WriteLine($"You created {count} circle(s)");
+                    doAgain = false;
+                    
                     }
-                }
+                
             }
             while (doAgain == true);
             Console.ReadKey();
